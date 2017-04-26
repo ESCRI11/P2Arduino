@@ -6,6 +6,7 @@ void setup () {
 
 void loop () {
   i = analogRead(pinEntrada);
-  Serial.println(i*5/1024*1000/10);
+  Serial.print(i*5/1024*1000/10);
+  Serial.println('C');
   delay(1000);
 }
