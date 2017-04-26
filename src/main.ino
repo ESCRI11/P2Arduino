@@ -6,7 +6,7 @@ void setup () {
 
 void loop () {
   i = analogRead(pinEntrada);
-  Serial.print(i*5/1024*1000/10); //Digital value to degrees celsius
+  Serial.print(i*5/1023*1000/10); //Digital value to degrees celsius
   Serial.println('C');
   delay(1000);
 }
