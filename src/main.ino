@@ -21,7 +21,6 @@ void loop () {
   color_blue = 255 - color_red;
   analogWrite(red, color_red);
   analogWrite(blue, color_blue);
-//  Serial.print(i);
-  Serial.println(color_red);
-  //delay(1000);
+  Serial.println(i);
+  delay(100);
 }
